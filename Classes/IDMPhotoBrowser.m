@@ -191,7 +191,7 @@ NSLocalizedStringFromTableInBundle((key), nil, [NSBundle bundleWithPath:[[NSBund
         _isdraggingPhoto = NO;
         
         _doneButtonRightInset = 20.f;
-        _doneButtonTopInset = 30.f;
+        _doneButtonTopInset = 60.f;
         _doneButtonSize = CGSizeMake(55.f, 26.f);
 
 		if ([self respondsToSelector:@selector(automaticallyAdjustsScrollViewInsets)]) {
